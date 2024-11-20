@@ -24,7 +24,10 @@ if __name__ == "__main__":
     # trimesh puede entregar una malla (mesh)
     # o una escena (compuesta de mallas)
     # con esto forzamos que siempre entregue una escena
-    asset = tm.load(sys.argv[1], force="scene")
+    ### asset = tm.load("assets/zorzal.obj", force="scene")
+    asset = tm.load("my_assets/tri_f1car.obj", force="scene")
+    asset = tm.load("my_assets/tri_jpMushroom.obj", force="scene")
+    asset = tm.load("my_assets/41-formula-1/formula 1/Formula 1 mesh.obj", force="scene")
 
     # de acuerdo a la documentación de trimesh, esto centra la escena
     # no es igual a trabajar con una malla directamente

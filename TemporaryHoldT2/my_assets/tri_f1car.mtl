@@ -1,0 +1,34 @@
+# Blender 4.0.2 MTL File: 'f1car_true.blend'
+# www.blender.org
+
+newmtl Fillers
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.000000 0.000000 0.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+
+newmtl Mat
+Ns 319.999939
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd -o 0 -1 0 C:/Users/lucas/Downloads/41-formula-1/formula 1/Substance SpecGloss/Right ones/formula1_DefaultMaterial_Diffuse.png
+map_Ks -o 0 -1 0 C:/Users/lucas/Downloads/41-formula-1/formula 1/Substance SpecGloss/Right ones/formula1_DefaultMaterial_Specular.png
+map_refl -o 0 -1 0 C:/Users/lucas/Downloads/41-formula-1/formula 1/Substance SpecGloss/Right ones/formula1_DefaultMaterial_Specular.png
+map_Bump -o 0 -1 0 -bm 0.200000 C:/Users/lucas/Downloads/41-formula-1/formula 1/Substance SpecGloss/Right ones/formula1_DefaultMaterial_Normal.png
+
+newmtl Mirrors
+Ns 1000.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.000000 0.000000 0.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
